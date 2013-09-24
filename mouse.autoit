@@ -1,0 +1,13 @@
+While 1
+HotKeySet("{f2}","s")
+HotKeySet("{f3}","st")
+WEnd
+
+Func st()
+MouseDown("left")
+EndFunc
+
+Func s()
+        MouseUp("left")
+        Exit
+EndFunc
